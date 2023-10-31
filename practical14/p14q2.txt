@@ -1,0 +1,33 @@
+The highest value I could input into the recursive factorial function was 998. At 999, an error was thrown due to exceeding a maximum recursion depth limitation.
+
+
+```
+Enter integer: 999
+Non-recursive strategy time: 0.9021759033203125ms
+Traceback (most recent call last):
+  File "/Users/aprilpolubiec/Documents/UCD/COMP10280/practicals/practical14/./p14q1.py", line 38, in <module>
+    factRecursive(in_val)
+  File "/Users/aprilpolubiec/Documents/UCD/COMP10280/practicals/practical14/./p14q1.py", line 14, in factRecursive
+    num *= factRecursive(num - 1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aprilpolubiec/Documents/UCD/COMP10280/practicals/practical14/./p14q1.py", line 14, in factRecursive
+    num *= factRecursive(num - 1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aprilpolubiec/Documents/UCD/COMP10280/practicals/practical14/./p14q1.py", line 14, in factRecursive
+    num *= factRecursive(num - 1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 996 more times]
+RecursionError: maximum recursion depth exceeded
+```
+
+For the non-recursive function, on the other hand, I was able to continue increasing the input up to 100,000 at least. I could enter 1,000,000 without throwing any errors, however, the script hangs for a looooong time as its running the function.
+
+```
+Enter integer: 1000
+Non-recursive strategy time: 1.1899471282958984ms
+Enter integer: 10000
+Non-recursive strategy time: 63.86613845825195ms
+Enter integer: 100000
+Non-recursive strategy time: 4158.595085144043ms
+Enter integer: 1000000
+```

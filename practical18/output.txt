@@ -1,0 +1,6 @@
+Left angles: 1774
+Right angles: 1788
+New lines: 800
+'e' count: 4432
+Open comments: 6
+Close comments: 6

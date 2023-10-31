@@ -1,0 +1,12 @@
+What happens...
+
+(a) If you include the line print(print_max())?
+The function will still print "The largest of 4.0 and 6.0 is 6.0" but then there will be another line which prints out "None".
+This is because the outer print() is printing the return value of print_max() which is None because we return nothing.
+
+(b) If you omit the brackets after print_max(), ie just have print_max? 
+Nothing happens because you are not invoking the function, you are just stating it.
+
+(c) If you include the line print(print_max)?
+It prints out information about the print_max function, in other words, it's type and its address.
+<function print_max at 0x10038d120>

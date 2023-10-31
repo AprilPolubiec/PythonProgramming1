@@ -1,0 +1,10 @@
+(a) What happens when x and y are the same?
+- Nothing is selected / output
+(b) What happens when x is greater than y? 
+- Nothing is selected
+(c) What happens when x is omitted?
+- The slice starts from 0 until y
+(d) What happens when y is omitted?
+- The slice starts from x until the final char
+(e) What happens when both x and y are omitted?
+- The whole word is selected

@@ -1,0 +1,2 @@
+This test contains balanced brackets, should return True
+[(())<{]>}{}[[]]

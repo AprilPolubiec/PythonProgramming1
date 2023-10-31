@@ -1,0 +1,14 @@
+Output from testing recursive vs non-recursive function
+
+Enter integer: 100
+Non-recursive strategy time: 0.07581710815429688ms
+Recursive strategy time: 0.026941299438476562ms
+Enter integer: 200
+Non-recursive strategy time: 0.05984306335449219ms
+Recursive strategy time: 0.08177757263183594ms
+Enter integer: 300
+Non-recursive strategy time: 0.15997886657714844ms
+Recursive strategy time: 0.1289844512939453ms
+Enter integer: 400
+Non-recursive strategy time: 0.20623207092285156ms
+Recursive strategy time: 0.2460479736328125ms

@@ -1,0 +1,2 @@
+This test contains unbalanced brackets, should return False
+[(())<{]>>>}{}}[[[]]
